@@ -1,0 +1,82 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: tomato;
+    width: 100%;
+    padding: 20px;
+}
+
+.flex1 {
+    font-size: 50px;
+}
+
+.flex2 {
+    font-size: 100px;
+}
+
+.flex3 {
+    font-size: 40px;
+}
+
+.form_login {
+    border: 1px solid black;
+    text-align: center;
+    margin: 200px 30% 10px 30%;
+    height: ;
+}
+
+.zone_champ {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sec_princ {
+    margin-left : 20%;
+}
+
+.p_info {
+    margin-left: 5px;
+}
+
+.img_compte {
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+}
+
+.colonne_info {
+    text-align: center;
+    height: 200px;
+    width: 25%;
+    margin: 1%;
+    border: 1px solid black;
+    float: left;
+}
+
+.ligne_info {
+    width: 70%;
+    margin: 1%;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+}
+
+.rectangle_recette {
+    margin: 1%;
+    width: 98%;
+    float: left;
+    border: 1px solid black;
+}
