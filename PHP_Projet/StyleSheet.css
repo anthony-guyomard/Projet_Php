@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("https://stmed.net/sites/default/files/barbecue-wallpapers-28208-6125136.jpg");
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li p {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px 13px 200px;
+    margin: 0;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.input_menu {
+    text-align: center;
+    width: 300px;
+    margin: 13px 0 1px 300px;
+    text-decoration: none;
+}
+
+.input_menu2 {
+    text-align: center;
+    margin: 13px 1px 1px 0;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: tomato;
+    width: 100%;
+    padding: 20px;
+}
+
+.flex1 {
+    font-size: 50px;
+}
+
+.flex2 {
+    font-size: 100px;
+}
+
+.flex3 {
+    font-size: 40px;
+}
+
+.form_login {
+
+}
+
+.zone_champ {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sec_princ {
+    background-color: white;
+    margin: 200px 30% 0 30%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.p_info {
+    margin-left: 5px;
+}
+
+.img_compte {
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+}
+
+.colonne_info {
+    text-align: center;
+    height: 200px;
+    width: 25%;
+    margin: 1%;
+    border: 1px solid black;
+    float: left;
+}
+
+.ligne_info {
+    width: 70%;
+    margin: 1%;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+}
+
+.rectangle_recette {
+    margin: 1%;
+    width: 98%;
+    float: left;
+    border: 1px solid black;
+}
+
+.g-recaptcha {
+    text-align: center;
+}
+
+.inter_div {
+    background-color: lightgray;
+    margin : 15px;
+    border-radius: 5px;
+}
+
+.formulaire {
+    margin: 5px;
+}
+
+.titre_h1 {
+    margin: 0;
+}
