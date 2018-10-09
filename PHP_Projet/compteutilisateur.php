@@ -1,11 +1,11 @@
 <?php
-include 'usefullfunctions.php';
+include_once 'usefullfunctions.php';
 
 start_page('Votre Compte');
 
 echo '    <section class="sec_princ">
       <div class="colonne_info">
-        <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" class="img_compte"/>
+        <img src="Image/lambda.jpg" class="img_compte"/>
         <p>Nom Utilisateur</p>
       </div>
       <div class="ligne_info">
@@ -20,4 +20,5 @@ echo '    <section class="sec_princ">
           Recettes Favorites :
         </p>
       </div>
+      <div class="clear"></div>
     </section>';

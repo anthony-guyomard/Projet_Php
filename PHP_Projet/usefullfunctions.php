@@ -1,7 +1,4 @@
 <?php
-echo '<head>
-        <link rel="stylesheet" href="StyleSheet.css">
-      </head>';
 function start_page($title) {
     echo '<!doctype html>
              <html lang="fr">
@@ -11,7 +8,20 @@ function start_page($title) {
                 <script src=\'https://www.google.com/recaptcha/api.js\'></script>
                 <link rel="stylesheet" href="StyleSheet.css">
              </head>
-             <body>';
+             <body>
+             <header>
+                <ul>
+                   <li><a href="index.php">Accueil</a></li>
+                   <li><a href="recette.php">Recettes</a></li>
+                   <li><a href="compteutilisateur.php">Mon Compte</a></li>
+                   <li><p>Cook & Burn</p></li>
+                   <li>
+                       <input class="input_menu" type="text" type="search" placeholder="Rechercher une recette"/>
+                       <input class="input_menu2" type="submit" name="search" value="Search"/>
+                   </li>
+                   <li style="float:right"><a href="connexion.php">Connexion</a></li>
+               </ul>
+             </header>';
 }
 
 function Navigation() {
@@ -24,22 +34,6 @@ function Navigation() {
                 </div>;
             </div>
           </div>';
-}
-
-function Menu_Header() {
-    echo '<header>
-            <ul>
-               <li><a href="#">Accueil</a></li>
-               <li><a href="#">Recettes</a></li>
-               <li><a href="#">Mon Compte</a></li>
-               <li><p>Cook & Burn</p></li>
-               <li>
-                   <input class="input_menu" type="text" type="search" placeholder="Rechercher une recette"/>
-                   <input class="input_menu2" type="submit" name="search" value="Search"/>
-               </li>
-               <li style="float:right"><a href="#">Connexion</a></li>
-           </ul>
-      </header>';
 }
 
 function end_page() {

@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background: url("https://stmed.net/sites/default/files/barbecue-wallpapers-28208-6125136.jpg");
+    background: url("https://stmed.net/sites/default/files/barbecue-wallpapers-28208-6125136.jpg") no-repeat fixed center;
+    background-size: cover;
 }
 
 ul {
@@ -16,6 +17,7 @@ ul {
 }
 li {
     float: left;
+    margin: 5px;
 }
 li a {
     display: block;
@@ -35,6 +37,20 @@ li p {
     text-decoration: none;
 }
 
+.liens
+{
+    padding-top: 15px;
+}
+
+a:hover {
+    background-color: #111;
+}
+
+.logo:hover
+{
+    background-color: #333;
+}
+
 .input_menu {
     text-align: center;
     width: 300px;
@@ -48,8 +64,9 @@ li p {
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #111;
+.site
+{
+    font-size: 30px;
 }
 
 .row {
@@ -83,10 +100,6 @@ li a:hover {
     font-size: 40px;
 }
 
-.form_login {
-
-}
-
 .zone_champ {
     margin: auto;
     width: 50%;
@@ -94,9 +107,16 @@ li a:hover {
     border-radius: 5px;
 }
 
+.sec_log {
+    background-color: white;
+    margin: 200px 25% 0 25%;
+    border: 1px solid black;
+    text-align: center;
+}
+
 .sec_princ {
     background-color: white;
-    margin: 200px 30% 0 30%;
+    margin: 75px 25% 0 25%;
     border: 1px solid black;
     text-align: center;
 }
@@ -137,6 +157,7 @@ li a:hover {
 
 .g-recaptcha {
     text-align: center;
+    width: 100%;
 }
 
 .inter_div {
@@ -151,4 +172,14 @@ li a:hover {
 
 .titre_h1 {
     margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.sec_recipe
+{
+    margin: 100px;
+    background-color: white;
 }
