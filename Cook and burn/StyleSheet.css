@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'johnnytorch';
+    src: url('Polices/johnnytorch.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("https://stmed.net/sites/default/files/barbecue-wallpapers-28208-6125136.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 8%;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0px 5px 5px 5px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li .site {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 0px 13px 200px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: johnnytorch;
+}
+
+.liens
+{
+    padding-top: 15px;
+}
+
+a:hover {
+    background-color: #111;
+}
+
+.logo:hover
+{
+    background-color: #333;
+}
+
+.loupe {
+    margin-left: 30px;
+}
+
+.input_menu {
+    text-align: center;
+    width: 300px;
+    margin: 8px 0 1px 200px;
+    text-decoration: none;
+}
+
+.input_menu2 {
+    text-align: center;
+    margin: 13px 1px 1px 0;
+    text-decoration: none;
+}
+
+.zone_champ {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sec_log {
+    background-color: white;
+    margin: 200px 25% 0 25%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.sec_princ {
+    background-color: white;
+    margin: 100px 25% 0 25%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.p_info {
+    margin-left: 5px;
+}
+
+.img_compte {
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+}
+
+.colonne_info {
+    text-align: center;
+    height: 200px;
+    width: 25%;
+    margin: 1%;
+    border: 1px solid black;
+    float: left;
+}
+
+.ligne_info {
+    width: 70%;
+    margin: 1%;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+}
+
+.rectangle_recette {
+    margin: 1%;
+    width: 98%;
+    float: left;
+    border: 1px solid black;
+}
+
+.g-recaptcha {
+    text-align: center;
+    width: 100%;
+}
+
+.inter_div {
+    background-color: lightgray;
+    margin : 15px;
+    border-radius: 5px;
+}
+
+.formulaire {
+    margin: 5px;
+}
+
+.titre_h1 {
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.flex-containerG
+{
+    display: flex;
+    margin-left: 8%;
+    margin-right: 40%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    background-color: white;
+    height: auto;
+    flex-direction: column;
+}
+
+.flex-container1
+{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 40%;
+}
+
+.flex-container2
+{
+    margin: 0px 30px 30px 30px;
+    flex-direction: column;
+}
+
+.recette
+{
+    flex-direction: row;
+}
