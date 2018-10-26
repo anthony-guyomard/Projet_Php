@@ -1,0 +1,279 @@
+@font-face {
+    font-family: 'johnnytorch';
+    src: url('../Polices/johnnytorch.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("https://stmed.net/sites/default/files/barbecue-wallpapers-28208-6125136.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 18px 18px 20px 18px;
+    text-decoration: none;
+}
+
+li .site {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 0px 0px 200px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: johnnytorch;
+}
+
+a:hover, .logo:hover {
+    background-color: #111;
+}
+
+li .logo {
+    padding: 0 5px;
+}
+.logo {
+    padding-top: 0;
+}
+
+.loupe {
+    margin-left: 30px;
+}
+
+.input_menu {
+    text-align: center;
+    width: 300px;
+    margin: 8px 0 1px 200px;
+    text-decoration: none;
+}
+
+.input_menu2 {
+    text-align: center;
+    margin: 13px 1px 1px 0;
+    text-decoration: none;
+}
+
+.zone_champ {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sec_log {
+    background-color: white;
+    margin: 200px 25% 0 25%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.sec_princ {
+    background-color: white;
+    margin: 100px 20% 100px 20%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.rectangle_recette {
+    margin: 1%;
+    width: 98%;
+    float: left;
+    border: 1px solid black;
+}
+
+.g-recaptcha {
+    text-align: center;
+    width: 100%;
+}
+
+.inter_div {
+    background-color: lightgray;
+    margin : 15px;
+    border-radius: 5px;
+}
+
+.formulaire {
+    margin: 5px;
+}
+
+.titre_h1 {
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.flex-containerG
+{
+    display: flex;
+    margin-left: 8%;
+    margin-right: 40%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    background-color: white;
+    height: auto;
+    flex-direction: column;
+}
+
+.flex-container1
+{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 40%;
+}
+
+.flex-container2
+{
+    margin: 0px 30px 30px 30px;
+    flex-direction: column;
+}
+
+.recette
+{
+    flex-direction: row;
+}
+
+.parent {
+    display: flex;
+}
+.enfant {
+    height: 150px;
+    width: 25%;
+    margin: 5px;
+    border: black solid 1px;
+}
+.enfant2 {
+    height: 150px;
+    width: 75%;
+    margin: 5px;
+    border: black solid 1px;
+}
+.enfant3 {
+    width: 100%;
+    margin: 5px;
+    border: black solid 1px;
+}
+
+input.editable, input#nonEditable {
+    resize: none;
+    border: none;
+    font-size: 18px;
+}
+input.editable:disabled, input#nonEditable:disabled{
+    background-color: transparent;
+    color: dimgrey;
+}
+
+.like-unlike:hover {
+    background-color: black;
+    height: 50px;
+}
+
+.sharebox1 {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    padding-left: 60px;
+    margin : 20px 15px 15px 15px;
+
+    background-color: #3a4fe9;
+
+    border-style: solid ;
+    border-width: 1px;
+    border-radius: 15px 5px 15px 5px;
+    border-color: #305169;
+
+    text-decoration: none;
+    font-family: 'MS Arial';
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+
+}
+
+.sharebox2 {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    padding-left: 60px;
+    margin : 20px 15px 15px 15px;
+
+    background-color: #6bb3e9;
+
+    border-style: solid ;
+    border-width: 1px;
+    border-radius: 15px 5px 15px 5px;
+    border-color: #305169;
+
+    text-decoration: none;
+    font-family: 'MS Arial';
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+
+}
+
+
+
+.fb-icon {
+
+    background-image: url("/VIEW/Image/logo/logofb.svg") ;
+    background-size: 2.5rem, 2.5rem;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    left: 0.5rem;
+    bottom: 0px;
+    display: block;
+    position: absolute;
+    height :2.5rem;
+    width: 2.5rem;
+
+}
+
+.twitter-icon{
+    background-image: url("/VIEW/Image/logo/twitter.png") ;
+    background-size: 2.5rem, 2.5rem;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    left: 0.5rem;
+    bottom: 0px;
+    display: block;
+    position: absolute;
+    height :2.5rem;
+    width: 2.5rem;
+}
+
+
+
+.sharebox1:hover {
+    background-color: #4169E1;
+
+    color: black;
+}
+
+.sharebox2:hover {
+    background-color: #B4D4ED;
+
+    color: black;
+}
